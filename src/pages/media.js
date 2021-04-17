@@ -5,7 +5,6 @@ import { events } from '../static_data/media';
 import { Link } from 'gatsby';
 
 const Media = props => {
-  document.title = 'BroBots - Media';
   return (
     <Layout {...props}>
       <div className={styles.container}>

@@ -5,7 +5,6 @@ import { events } from '../static_data/events';
 import { Link } from 'gatsby';
 
 const Events = props => {
-  document.title = 'BroBots - Events';
   return (
     <Layout {...props}>
       <div className={styles.container}>

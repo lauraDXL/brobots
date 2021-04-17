@@ -12,7 +12,6 @@ const Contact = props => {
     toast('Saved to clipboard');
   };
 
-  document.title = 'BroBots - Contact';
   return (
     <Layout {...props}>
       <ToastContainer draggable hideProgressBar position='top-center' />

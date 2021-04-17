@@ -5,7 +5,6 @@ import { results } from '../static_data/results';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Results = props => {
-  document.title = 'BroBots - Results';
   const { language } = props.pageContext;
   return (
     <Layout {...props}>

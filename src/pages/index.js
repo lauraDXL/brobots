@@ -5,7 +5,6 @@ import * as styles from '../styles/home.module.scss';
 import ReactTypingEffect from 'react-typing-effect';
 
 const IndexPage = props => {
-  document.title = 'BroBots - Home';
   return (
     <Layout {...props}>
       <div className={styles.text}>

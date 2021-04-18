@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'BroBots',
-    description: 'We are....'
+    description: 'We are....',
+    author: `@exampleuser`,
+    siteUrl: `https://brobots.gatsbyjs.io/`
   },
   plugins: [
     'gatsby-plugin-sass',

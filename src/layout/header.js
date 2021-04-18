@@ -8,7 +8,7 @@ import { FormattedMessage, Link } from 'gatsby-plugin-intl';
 const Header = props => {
   const { path } = props;
 
-  const currentPage = path.split('/').reverse()[1];
+  const currentPage = path && path.split('/').reverse()[1];
 
   return (
     <div className={styles.header}>

@@ -13,37 +13,41 @@ const Event = props => {
   const { language } = props.pageContext;
 
   const event = events.find(
-    event => event.key === location.pathname.split('/')[3]
+    event => event.key === location.pathname && location.pathname.split('/')[3]
   );
 
   return (
     <Layout>
       <div className={styles.page}>
-        <div className={styles.primaryArea}>
-          <h1>{event.title}</h1>
-          <p className={styles.location}>
-            {event.location}, {event.date}
-          </p>
-          <div className={styles.carousel}>
-            <Carousel pause='false' touch>
-              {event.images.length > 0 &&
-                event.images.map((image, key) => (
-                  <Carousel.Item interval={2000} key={key}>
-                    <img
-                      className='d-block w-100'
-                      src={image}
-                      alt='First slide'
-                    />
-                  </Carousel.Item>
-                ))}
-            </Carousel>
+        {event ? (
+          <div className={styles.primaryArea}>
+            <h1>{event.title}</h1>
+            <p className={styles.location}>
+              {event.location}, {event.date}
+            </p>
+            <div className={styles.carousel}>
+              <Carousel pause='false' touch>
+                {event.images.length > 0 &&
+                  event.images.map((image, key) => (
+                    <Carousel.Item interval={2000} key={key}>
+                      <img
+                        className='d-block w-100'
+                        src={image}
+                        alt='First slide'
+                      />
+                    </Carousel.Item>
+                  ))}
+              </Carousel>
+            </div>
+            <p className={styles.description}>
+              {language === 'en' && event.description_en
+                ? event.description_en
+                : event.description}
+            </p>
           </div>
-          <p className={styles.description}>
-            {language === 'en' && event.description_en
-              ? event.description_en
-              : event.description}
-          </p>
-        </div>
+        ) : (
+          'This page is currently unavailable'
+        )}
       </div>
     </Layout>
   );

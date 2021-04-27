@@ -8,13 +8,16 @@ import * as styles from '../styles/event.module.scss';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Event = props => {
-  const location = props.location;
-  const events = [...other, ...media, ...demo];
-  const { language } = props.pageContext;
+  const { location } = props;
+  const events =
+    location && location.state && location.state.type === 'demo'
+      ? demo
+      : location && location.state && location.state.type === 'media'
+      ? media
+      : other;
 
-  const event = events.find(
-    event => event.key === location.pathname && location.pathname.split('/')[3]
-  );
+  const { language } = props.pageContext;
+  const event = location && location.state && events[location.state.id];
 
   return (
     <Layout>
@@ -26,7 +29,7 @@ const Event = props => {
               {event.location}, {event.date}
             </p>
             <div className={styles.carousel}>
-              <Carousel pause='false' touch>
+              <Carousel touch>
                 {event.images.length > 0 &&
                   event.images.map((image, key) => (
                     <Carousel.Item interval={2000} key={key}>

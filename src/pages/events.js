@@ -7,6 +7,8 @@ import { Link } from 'gatsby';
 const Events = props => {
   const { language } = props.pageContext;
 
+  console.log(language);
+
   return (
     <Layout {...props}>
       <div className={styles.container}>
@@ -25,7 +27,12 @@ const Events = props => {
               </Link>
 
               <p className={styles.location}>{event.location}</p>
-              <p>{event.description.slice(0, 100)}...</p>
+              <p>
+                {language === 'en' && event.description_en
+                  ? event.description_en.slice(0, 100)
+                  : event.description.slice(0, 100)}
+                ...
+              </p>
             </div>
             <p className={styles.date}>{event.date}</p>
           </div>

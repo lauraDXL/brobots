@@ -23,9 +23,13 @@ const Media = props => {
               <Link to={`/${language}/event`} state={{ id, type: 'media' }}>
                 <h4>{event.title}</h4>
               </Link>
-
               <p className={styles.location}>{event.location}</p>
-              <p>{event.description.slice(0, 100)}...</p>
+              <p>
+                {language === 'en' && event.description_en
+                  ? event.description_en.slice(0, 100)
+                  : event.description.slice(0, 100)}
+                ...
+              </p>{' '}
             </div>
             <p className={styles.date}>{event.date}</p>
           </div>

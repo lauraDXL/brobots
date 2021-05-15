@@ -1,6 +1,54 @@
 @import './variables.scss';
 @import './mixins.scss';
 
+a {
+  color: $alb !important;
+  font-family: $secondary_font;
+  text-decoration: none !important;
+  margin: 0 10px;
+  font-size: 1.2em;
+  border-bottom: 2px solid transparent;
+  transition: all 0.7s linear;
+
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: -2vh;
+    left: 30%;
+  }
+}
+.normal {
+  &:hover {
+    border-bottom: 2px solid $portocaliu;
+    color: $alb;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    color: $portocaliu;
+  }
+}
+.active {
+  border-bottom: 2px solid $portocaliu !important;
+  color: $portocaliu !important;
+}
+.normal {
+  &:hover {
+    border-bottom: 2px solid $portocaliu;
+    color: $alb;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    color: $portocaliu;
+  }
+}
+.active {
+  border-bottom: 2px solid $portocaliu;
+  color: $portocaliu;
+}
+
 .content {
   background-color: $grena;
   color: $alb;
@@ -67,31 +115,20 @@
       left: 30%;
     }
 
-    @media screen and (max-width: $small_screen) {
-      font-size: 0.5em;
-      margin: 0 5px;
-    }
+    // @media screen and (max-width: $tablet) {
+    //   // font-size: 0.5em;
+    //   // margin: 0 5px;
+    //   display: none;
+    // }
 
-    @media screen and (max-width: $phone) and (min-width: $small_screen) {
-      font-size: 0.7em;
-      margin: 0 5px;
-    }
+    // @media screen and (max-width: $phone) and (min-width: $small_screen) {
+    //   font-size: 0.7em;
+    //   margin: 0 5px;
+    // }
   }
 
-  .normal {
-    &:hover {
-      border-bottom: 2px solid $portocaliu;
-      color: $alb;
-      text-decoration: none !important;
-    }
-
-    &:active {
-      color: $portocaliu;
-    }
-  }
-  .active {
-    border-bottom: 2px solid $portocaliu;
-    color: $portocaliu;
+  @media screen and (max-width: $tablet) {
+    display: none;
   }
 }
 
@@ -141,13 +178,38 @@
 
       a {
         padding: 5px;
-        color: $gri_inchis;
+        color: $gri_inchis !important;
         width: max-content;
 
         &:hover {
           color: $gri_inchis;
         }
       }
+    }
+  }
+}
+
+.mobileMenu {
+  display: none;
+  @media screen and (max-width: $tablet) {
+    display: initial;
+  }
+}
+
+.row {
+  display: none;
+  @media screen and (max-width: $tablet) {
+    display: flex;
+  }
+  @include layout(row, center, space-between);
+  background-color: $grena;
+  a {
+    width: fit-content;
+    margin: 10px 0;
+    @include layout(row, center, center);
+    img {
+      height: calc(#{$header_h} * 0.5);
+      margin: 0 10vw 0 0;
     }
   }
 }

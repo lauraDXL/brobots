@@ -133,6 +133,13 @@ const Header = props => {
           >
             <FormattedMessage id='other_events' />
           </Link>
+          <Link
+            activeClassName={styles.active}
+            className={styles.normal}
+            to='/contact'
+          >
+            <FormattedMessage id='contact' />
+          </Link>
           <Translation />
         </Menu>
         <Link to='/'>

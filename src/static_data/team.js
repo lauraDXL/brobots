@@ -71,7 +71,7 @@ export const team = [
   {
     name: 'Vlăduț Ionel',
     img: vladut,
-    instagram: 'https://www.instagram.com/vlad.ddy/',
+    instagram: 'https://www.instagram.com/27xvlad/',
     description_en:
       'Hello! My name is Vlăduț, I am 16 years old and I am part of the robotics team of the "Alexandru Lahovari" National College. I joined the programming department this year to help the team and learn new things! In my free time I like to play, to program and I like take walks outside. I have a passion for computer science and I want to know as much as possible about this field.',
     description:

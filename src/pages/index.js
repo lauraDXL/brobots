@@ -5,6 +5,7 @@ import * as styles from '../styles/home.module.scss';
 import ReactTypingEffect from 'react-typing-effect';
 
 const IndexPage = props => {
+  const { language } = props.pageContext;
   return (
     <Layout {...props}>
       <div className={styles.text}>
@@ -31,13 +32,9 @@ const IndexPage = props => {
           text={['Bringing the future closer.']}
         />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        {language === 'en'
+                    ? 'An old saying us that whoever resembles, gathers.\n As for us... \nSome are extroverts, others are introverts. Some of us like rock\'n\'roll, others of us listen to electronic music or rap. Some of us love action movies, others drama, anime or comedy. Many of us prefer to play on the computer, many of us also play with the ball. At the mountains or at sea, in a city break or simply lounging on the couch.\n So different, but still together. In the BroBots team\'s recipe there are many totally distinct ingredients, but they are linked together by the passion to make... something. Come with us to have a better perspective on our "something".'
+                    : 'Un vechi proverb ne spune că cine se aseamănă, se adună. Cât despre noi... Unii suntem extrovertiți, ceilalți suntem introvertiți. Unora dintre noi ne place rock\'n\'roll-ul, alții dintre noi ascultă muzică electronică sau rap. Unii dintre noi adora filmele de acțiune, alții dramele, animeurile sau comediile. Mulți preferăm să ne jucăm pe calculator, tot mulți dintre noi se joacă cu mingea. La munte sau la mare, în citybreak sau, pur și simplu, tolaniți pe canapea.\nAtât de diferiți, dar totuși împreună. În rețeta echipei BroBots sunt multe ingrediente total distincte, dar legate împreună de pasiune de a face... ceva. Haide alături de noi pentru a avea o perspectivă mai bună asupra \'ceva-ului\' nostru.'}
         </p>
       </div>
       <div className={styles.image}>

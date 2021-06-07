@@ -17,14 +17,7 @@ export const alumni = [
     description:
       'Eu sunt Andrei Toma, absolvent al promoției 2015-2019 a profilului de matematică informatică – intensiv informatică al Colegiului Național „Alexandru Lavovari”. În prezent sunt student în anul 2 la Information Technology for Business în cadrul Coventry University, din Marea Britanie. Ca membru fondator al echipei Brobots, mă bucur că eforturile noastre de a ne cufunda într-un domeniu complet necunoscut pentru noi în 2019 au reprezentat o deschidere de drumuri către un domeniu al viitorului și o moștenire care, deja, se lasă din generație în generație, alături de experiențele cumulate, de emoțiile strânse și de toată susținerea și speranța într-un parcurs cât mai înfloritor pentru sezonul competițional următor.'
   },
-  // {
-  //   name: 'Anca Drăghici',
-  //   img: laura,
-  //   facebook: 'https://www.facebook.com/',
-  //   instagram: 'https://www.instagram.com//',
-  //   email: '',
-  //   description: ''
-  // },
+  
   {
     name: 'Patrick Banu',
     img: patrick,
@@ -44,14 +37,7 @@ export const alumni = [
     description:
       'Salut! Numele meu este Silviu Preoteasa și sunt unul dintre alumnii BroBots. Acum sunt student la UBB Cluj-Napoca în anul al II-lea, unde studiez informatica. Sunt pasionat de programare, muzica și tehnologie in general. Experiența de la FTC mi-a pavat unul dintre drumurile academice pe care le urmez actual - inteligenta artificiala, și mai exact machine learning.'
   },
-  // {
-  //   name: 'Alexandru Theodor',
-  //   img: laura,
-  //   facebook: 'https://www.facebook.com/',
-  //   instagram: 'https://www.instagram.com//',
-  //   email: '',
-  //   description: ''
-  // },
+ 
   {
     name: 'Andrei Mihai',
     img: andreim,
@@ -83,20 +69,5 @@ export const alumni = [
     description:
       'Sunt Vali și am făcut parte din echipa BroBots a Colegiului Național "Alexandru Lahovari", în departamentul de Proiectare 3D. Sunt pasionat de proiectare, muzică și jocuri video. Îmi place să îmi petrec timpul jucându-mă cu prietenii și lucrând la proiecte personale.'
   }
-  // {
-  //   name: 'Gabriel Fota',
-  //   img: laura,
-  //   facebook: 'https://www.facebook.com/',
-  //   instagram: 'https://www.instagram.com//',
-  //   description:
-  //     'Sunt Gabi și am făcut parte din echipa BroBots a Colegiului Național "Alexandru Lahovari", în departamentul de Programare, dar am fost și driver.'
-  // },
-  // {
-  //   name: 'Eduard Enache',
-  //   img: laura,
-  //   facebook: 'https://www.facebook.com/',
-  //   instagram: 'https://www.instagram.com/',
-  //   description:
-  //     'Sunt Edi și am făcut parte din echipa BroBots a Colegiului Național "Alexandru Lahovari", în departamentul de Marketing și Comunicare.'
-  // }
+  
 ];

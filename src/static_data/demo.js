@@ -63,6 +63,7 @@ export const events = [
     //image to show in events page
     cover: demo1,
     location: 'Colegiul Național "Mircea cel Bătrân", Râmnicu Vâlcea',
+    location_en: '"Mircea cel Batran" National College, Ramnicu Valcea',
     date: '14 - 15 Dec 2019',
     key: 'demo_bionic_royals_2019'
   },
@@ -77,7 +78,9 @@ export const events = [
     //image to show in events page
     cover: demo4cover,
     location: 'Colegiul Național "Mircea cel Bătrân", Râmnicu Vâlcea',
+    location_en: 'National College "Mircea cel Batran", Ramnicu Valcea',
     date: '24-25 Noi 2018 ',
+    date_en: '24-25 Nov 2018',
     key: 'demo_bionic_royals_2018'
   },
 

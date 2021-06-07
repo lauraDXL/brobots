@@ -24,9 +24,13 @@ const Event = props => {
       <div className={styles.page}>
         {event ? (
           <div className={styles.primaryArea}>
-            <h1>{event.title}</h1>
+            <h1>{language === 'en' && event.title_en
+                    ? event.title_en
+                    : event.title}</h1>
             <p className={styles.location}>
-              {event.location}, {event.date}
+            {language === 'en' && event.location_en
+                  ? event.location_en
+                  : event.location}, {event.date}
             </p>
             <div className={styles.carousel}>
               <Carousel touch>

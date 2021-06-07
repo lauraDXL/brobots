@@ -1,23 +1,6 @@
 @import './variables.scss';
 @import './mixins.scss';
 
-a {
-  color: $alb !important;
-  font-family: $secondary_font;
-  text-decoration: none !important;
-  margin: 0 10px;
-  font-size: 1.2em;
-  border-bottom: 2px solid transparent;
-  transition: all 0.7s linear;
-
-  position: relative;
-
-  svg {
-    position: absolute;
-    top: -2vh;
-    left: 30%;
-  }
-}
 .normal {
   &:hover {
     border-bottom: 2px solid $portocaliu;
@@ -62,6 +45,23 @@ a {
 }
 
 .header {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
   height: $header_h;
   width: 100%;
 
@@ -136,6 +136,24 @@ a {
   height: $footer_h;
   @include layout(row, center, flex-end);
 
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
+
   img {
     height: 90%;
 
@@ -148,6 +166,23 @@ a {
 }
 
 .events {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
   position: relative;
   display: flex;
   align-items: center;
@@ -190,6 +225,23 @@ a {
 }
 
 .mobileMenu {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
   display: none;
   @media screen and (max-width: $tablet) {
     display: initial;

@@ -208,8 +208,13 @@ a {
     margin: 10px 0;
     @include layout(row, center, center);
     img {
+      display: none;
       height: calc(#{$header_h} * 0.5);
       margin: 0 10vw 0 0;
+
+      @media screen and (max-width: $tablet) {
+        display: initial;
+      }
     }
   }
 }

@@ -50,9 +50,13 @@
     padding-bottom: 20px;
 
     p {
+      font-family: 'Montserrat';
       text-align: left;
       font-size: 0.8em;
       overflow: auto;
+
+      scrollbar-width: 4px;
+      scrollbar-color: transparent #da713025;
 
       @media (max-width: $tablet) {
         font-size: 0.75em;
@@ -63,6 +67,7 @@
       margin: 5px 0 5px 0;
       text-align: left;
       font-size: 1.3em;
+      font-family: 'Montserrat';
 
       @media (max-width: $tablet) {
         font-size: 0.85em;

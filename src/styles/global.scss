@@ -37,3 +37,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #da713071;
 }
+
+.body {
+  scrollbar-width: 4px;
+  scrollbar-color: transparent #da713025;
+}

@@ -163,6 +163,9 @@
       height: 10vw;
     }
   }
+  @media screen and (max-width: $tablet) {
+    @include layout(row, center, center);
+  }
 }
 
 .events {

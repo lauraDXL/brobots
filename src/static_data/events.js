@@ -147,7 +147,7 @@ export const events = [
     images: [ccover, c1, c2, c4, c5, c6],
     //image to show in events page
     cover: ccover,
-    date: '25 Mar 2021',
+    date: '22 Apr 2021',
     key: 'BroBots_comunitate',
   },
 

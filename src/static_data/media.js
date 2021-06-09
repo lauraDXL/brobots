@@ -16,7 +16,23 @@ import curierulcover from '../assets/events/curierul1.jpeg';
 import curier from '../assets/events/curier.jpeg';
 import curier3 from '../assets/events/curier3.jpeg';
 
+import matinaltv from '../assets/events/MATINALTV.jpg';
+
 export const events = [
+
+  {
+    title: 'Emisiunea "Matinal" de la VTV',
+    description_en:
+    'Today we were present on the set of the Matinal show on the VTV channel. We talked about our passion for robotics, about the BRD FIRST Tech Challenge Romania competition, about our projects. Along with us was one of the three mentors of the team - Andrei-Cosmin Toma (founding member of the BroBots team) whom we thank for all the support. Thanks to Mrs. Roxana Croitoru for the invitation!',
+    description:
+      'Astăzi am fost prezenți în platoul emisiunii Matinal Vtv. Am vorbit despre pasiunea noastră pentru robotică, despre competiția BRD FIRST Tech Challenge Romania, despre proiectele noastre. Alături de noi a fost unul dintre cei trei mentori ai echipei - Andrei-Cosmin Toma (membru fondator al echipei BroBots) căruia îi mulțumim pentru tot sprijinul. Mulțumim doamnei Roxana Croitoru pentru invitație!.',
+    images: [matinaltv],
+    //image to show in events page
+    cover:  matinaltv,
+    location: 'Apariție televiziune',
+    date: '28 Feb 2020',
+    key: 'vtv_2020'
+  },
 
   {
     title: 'Apariție în "Curierul de Vâlcea"',
@@ -35,7 +51,7 @@ export const events = [
     description_en:'On the weekends from the 26th to the 27th of September and from the 3rd to the 4th of October 2020, an online event will take place, organized by the IT department from the National College "Alexandru Lahovari" from Ramnicu Valcea, through the "Alexandru Lahovari" association and the members and alumni of the Brobots robotics team, known as THE ZEN OF PROGRAMMING AND ROBOTICS. This event strives to promote STEM education throughout the community and robotics via webinars/workshops for programming and robotics, supported by members, alumni of the Brobots team and alumni of the National College "Alexandru Lahovari". The editors from "Curierul de Vâlcea" (a newspaper from Ramnicu Valcea) published an article for popularizing this event.' ,
     description:'În weekend-urile 26-27 septembrie 2020 și 3-4 octombrie 2020 se va desfășura în cadrul Colegiului Național „Alexandru Lahovari” din Râmnicu Vâlcea, prin intermediul Asociației «Alexandru Lahovari» și în organizarea catedrei de informatică, a echipei de robotică BroBots și a unor alumni Lahovari evenimentul online THE ZEN OF PROGRAMMING AND ROBOTICS. Acest eveniment își propune să promoveze în comunitate educația STEM și robotica prin intermediul unor webinarii/ateliere de programare și robotică susținute de membri ai echipei de robotică BroBots, alumni BroBots și alumni Lahovari. Redactorii "Curierul de Vâlcea" au publicat un articol pentru popularizarea acestui eveniment.',
     images: [curierulcover],
-    cover: curierul_1,
+    cover: curierulcover,
     location: 'Apariție ziar',
     date: '25 Sept 2020',
     key: 'curierul2021',

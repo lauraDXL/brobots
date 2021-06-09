@@ -15,6 +15,10 @@ const Layout = props => {
       <Helmet>
         <title>{title}</title>
         <meta name='description' content={description} />
+        <link
+          href='https://fonts.googleapis.com/css?family=Montserrat'
+          rel='stylesheet'
+        />
       </Helmet>
       <div className={styles.content}>{props.children}</div>
       <Footer />

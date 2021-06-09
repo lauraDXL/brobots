@@ -46,7 +46,7 @@ const Contact = props => {
           </div>
           <div className={style.group}>
             <p onClick={onSave}>
-              <FaPhoneAlt /> {'0729 064 637'}
+              <FaPhoneAlt /> {'0787 546 995'}
             </p>
           </div>
           <div className={style.group}>

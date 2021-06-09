@@ -45,9 +45,9 @@ const Contact = props => {
             </a>
           </div>
           <div className={style.group}>
-            <p onClick={onSave}>
+            <a href='tel:0787 546 995' target='_blank' rel='noreferrer'>
               <FaPhoneAlt /> {'0787 546 995'}
-            </p>
+            </a>
           </div>
           <div className={style.group}>
             <a

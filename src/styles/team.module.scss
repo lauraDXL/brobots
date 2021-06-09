@@ -50,9 +50,13 @@
     padding-bottom: 20px;
 
     p {
+      font-family: 'Montserrat';
       text-align: left;
       font-size: 0.8em;
       overflow: auto;
+
+      scrollbar-width: 4px;
+      scrollbar-color: transparent #da713025;
 
       @media (max-width: $tablet) {
         font-size: 0.75em;
@@ -63,6 +67,7 @@
       margin: 5px 0 5px 0;
       text-align: left;
       font-size: 1.3em;
+      font-family: 'Montserrat';
 
       @media (max-width: $tablet) {
         font-size: 0.85em;
@@ -157,12 +162,13 @@
       color: $alb;
       text-decoration: none;
       font-size: 0.8em;
-      margin: 0 4%;
+      // margin: 14px;
+      padding: 0 0.5em;
 
       svg {
         font-size: 1.5em;
       }
-      @include layout(row, center, flex-start);
+      // @include layout(row, center, flex-start);
     }
   }
 

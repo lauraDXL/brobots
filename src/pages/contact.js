@@ -45,8 +45,8 @@ const Contact = props => {
             </a>
           </div>
           <div className={style.group}>
-            <a href='tel:0729 064 637' target='_blank' rel='noreferrer'>
-              <FaPhoneAlt /> {'0729 064 637'}
+            <a href='tel:0787 546 995' target='_blank' rel='noreferrer'>
+              <FaPhoneAlt /> {'0787 546 995'}
             </a>
           </div>
           <div className={style.group}>

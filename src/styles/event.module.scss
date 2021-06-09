@@ -211,3 +211,27 @@
 .description {
   margin-top: 3vh;
 }
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(253, 213, 220);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(243, 169, 169);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}

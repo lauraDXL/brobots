@@ -6,7 +6,6 @@ import { Link } from 'gatsby';
 
 const Media = props => {
   const { language } = props.pageContext;
-
   return (
     <Layout {...props}>
       <div className={styles.container}>
@@ -25,11 +24,11 @@ const Media = props => {
               </Link>
               <p className={styles.location}>{event.location}</p>
               <p>
-                {language === 'en' && event.description_en
-                  ? event.description_en.slice(0, 100)
-                  : event.description.slice(0, 100)}
-                ...
-              </p>{' '}
+              {language === 'en' && event.description_en
+                ? event.description_en
+                : event.description}
+              </p>
+
             </div>
             <p className={styles.date}>{event.date}</p>
           </div>

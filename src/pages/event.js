@@ -51,6 +51,13 @@ const Event = props => {
                 ? event.description_en
                 : event.description}
             </p>
+            <p>
+                <a href={event.link}>
+                {language === 'en' && event.link
+                  ? "Go to article"
+                  : event.link?"Link către articol":""}
+                </a>
+              </p>
           </div>
         ) : (
           'This page is currently unavailable'

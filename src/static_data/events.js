@@ -110,8 +110,9 @@ import l3 from '../assets/events/1303.jpg';
 import l4 from '../assets/events/1304.jpg';
 import take2021 from '../assets/events/take2021.jpg';
 import lahovari9 from '../assets/events/lahovari9.jpg';
-
-
+import vfr1 from '../assets/events/vfr1.png';
+import vfr2 from '../assets/events/vfr2.jpg';
+import vfr3 from '../assets/events/vfr3.jpg';
 
 
 
@@ -360,6 +361,23 @@ export const events = [
     location: 'Eveniment online',
     date: '28 Oct 2020',
     key: 'targ_stiinta_2020'
+  },
+
+  {
+    title_en: 'Vâlcea Forest Run ',
+    title:
+      'Vâlcea Forest Run',
+    description_en:
+      'In recent years there is more and more talk about the concept of STEM education (Science, Technology, Engineering and Mathematics), an educational concept based on an interdisciplinary and applied approach, integrating a coherent learning mechanism based on real-world applications, being considered the next step in education globally. \ nThus, the BroBots team from the National College "Alexandru Lahovari" will hold events to promote STEM education in 8 schools and high schools in the county and workshops on programming, design and 3D printing, assembly, to teach students to work in a team and find, in the future, innovative solutions to the problems they identify. \ n We address both high school students to whom we present the project in which we participate - First Tech Challenge (organized in Romania by the Association "Nation through Education"), inviting them to join us, and students in high school who are extremely interested in everything that needs to be robotized. ”, Simona Ianc, BroBots Team Mentor. \ n Budget: 15,000 RON for a more efficient 3D printing, components and parts for making robots, the material necessary for the development of practical programming, 3D design and assembly workshops.',
+    description:
+      'În ultimii ani se vorbeşte din ce în ce mai mult despre conceptul de educaţie STEM (Science, Technology, Engineering and Mathematics), concept educaţional ce se bazează pe o abordare interdisciplinară şi aplicată, integrând un mecanism de învăţare coerentă bazat pe aplicaţii din lumea reală, fiind considerat drept pasul următor în educație la nivel global.\nAstfel, echipa BroBots din cadrul Colegiului Național „Alexandru Lahovari” va realiza evenimente de promovare a educației STEM în 8 școli și licee din județ și ateliere de programare, proiectare și imprimare 3D, asamblare, care să îi învețe pe elevi să lucreze în echipă și să găsească, pe viitor, soluții inovatoare la problemele pe care le identifică. \n „Ne adresăm atât elevilor de liceu cărora le prezentăm proiectul în care noi participăm – First Tech Challenge (organizat în România de Asociația „NațiePrin Educație”), invitându-i să ni se alăture, cât și elevilor din clasele de gimnaziu care sunt extrem de interesați de tot ceea ce înseamnă robotică.”, Simona Ianc, BroBots Team Mentor.\n Buget: 15.000 RON pentru o imprimantă 3D mai performantă, componente și piese pentru realizarea roboților, materiale necesare desfășurării atelierelor practice de programare, de proiectare 3D, de asmablare. ',
+    images: [vfr1, vfr2, vfr3],
+    //image to show in events page
+    cover: vfr2,
+   // location: 'Colegiul Național "Alexandru Lahovari"',
+   // location_en : '"Alexandru Lahovari" National College',
+    date: '1 - 10  Oct 2021',
+    key: 'valcea_forest_run',
   },
 
   {

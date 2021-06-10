@@ -21,10 +21,18 @@ const Demos = props => {
             </div>
             <div className={styles.info}>
               <Link to={`/${language}/event`} state={{ id, type: 'demo' }}>
-                <h4>{event.title}</h4>
+                <h4>
+					{language === 'en' && event.title_en
+                    ? event.title_en
+                    : event.title}</h4>
               </Link>
 
-              <p className={styles.location}>{event.location}</p>
+              <p className={styles.location}>
+                {language === 'en' && event.location_en
+                  ? event.location_en
+                  : event.location}
+              </p>
+			  
               <p>
                 {language === 'en' && event.description_en
                   ? event.description_en.slice(0, 100)
@@ -32,7 +40,11 @@ const Demos = props => {
                 ...
               </p>
             </div>
-            <p className={styles.date}>{event.date}</p>
+            <p className={styles.date}>
+				{language === 'en' && event.date_en
+                  ? event.date_en
+                  : event.date}
+				 </p>
           </div>
         ))}
       </div>

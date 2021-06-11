@@ -32,8 +32,8 @@ export const events = [
     cover:  matinaltv,
 	location_en: 'TV appearance',
     location: 'Apariție televiziune',
-	date_en: '28 Feb 2020',
-    date: '28 Feb 2020',
+	date_en: '7 Iun 2021',
+    date: '7 Jun 2021',
     key: 'vtv_2020'
   },
 

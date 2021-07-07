@@ -3,8 +3,20 @@ import poza1 from '../assets/results/pozatimisoara2020.jpg';
 import diploma from '../assets/results/diploma2020.jpg';
 import diploma2019 from '../assets/results/diploma2019.png';
 import poza2 from '../assets/results/regionala2019.png';
+import motivate from '../assets/results/motivate.jpg';
+import pgrup from '../assets/results/pgrup.jpg';
 
 export const results = [
+  {
+    title: 'Regionala 2021',
+    description_en:
+      "The end of the 2020-2021 season brings again a reason for joy for our team. We continue the series of successes started in the first season in the BRD FIRST Tech Challenge Romania contest. After the Second Prize - Think Award obtained in 2019 and the second prize - Connect Award obtained in 2020 this year, the great performance of the team within the remote regional competiton was rewarded with the First Prize - Motivate Award.",
+    description:
+      'Finalul de sezon 2020-2021 aduce din nou un motiv de bucurie pentru echipa noastră. Continuăm seria succeselor începută în primul sezon de participare în concursul BRD FIRST Tech Challenge Romania. După Premiul II - Think Award obținut în 2019 și premiul II - Connect Award obținut în 2020 anul acesta prestația foarte bună a echipei în cadrul regionalei remote Timișoara a fost recompensată cu Premiul I - Motivate Award.       ',
+    images: [ pgrup, motivate],
+    location: 'Online',
+    date: '8 - 13 Iun 2021'
+  },
   {
     title: 'Regionala Timișoara 2020',
     description_en:

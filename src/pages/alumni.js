@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../layout/layout';
 import * as styles from '../styles/team.module.scss';
-import { FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 import { alumni } from '../static_data/alumni';
 
@@ -37,6 +37,12 @@ const Team = props => {
                     {human.github && (
                       <a href={human.github} target='_blank' rel='noreferrer'>
                         <FaGithub />
+                      </a>
+                    )}
+
+                   {human.linkedin && (
+                      <a href={human.linkedin} target='_blank' rel='noreferrer'>
+                        <FaLinkedin />
                       </a>
                     )}
                     {human.email && (

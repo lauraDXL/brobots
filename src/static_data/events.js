@@ -113,12 +113,30 @@ import lahovari9 from '../assets/events/lahovari9.jpg';
 import vfr1 from '../assets/events/vfr1.png';
 import vfr2 from '../assets/events/vfr2.jpg';
 import vfr3 from '../assets/events/vfr3.jpg';
-
-
+import bridge1 from '../assets/events/brodge1.jpg';
+import bridge2 from '../assets/events/bridge2.png';
+import bridge3 from '../assets/events/bridge3.jpg';
 
 export const events = [
 
 
+  {
+    title_en: 'The bridge between high and low programming ',
+    title:
+      'The bridge between high and low programming',
+    description_en:
+      'The online programming event - C ++ - "The bridge between high and low programming" - - organized in collaboration with the BroBots Team and together with the Lahovari alumni community, was held on September 10-12 and during the event we talked about the principles of object-oriented programming , about classes, generic code in C ++ and STL library. We would like to thank our trainer, Răzvan Ispas - alumnus Lahovari (2019 promotion) (student at the Faculty of Mathematics and Informatics within the “Babeș-Bolyai” University of Cluj-Napoca) for all the time given to this workshop.',
+    description:
+      'Evenimentul online de programare - C++ - ”The bridge between high and low programming” - - organizat în colaborare cu BroBots Team și împreună cu comunitatea de alumni Lahovari, s-a ținut pe 10-12 septembrie și în cadrul evenimentului s-a vorbit despre principiile programării orientate obiect, despre clase, cod generic în C++ și librăria STL. Îi mulțumim enorm trainerului nostru, Răzvan Ispas – alumn Lahovari (promoția 2019) (student la Facultatea de Matematică și Informatică din cadrul Universității “Babeș-Bolyai” Cluj-Napoca) pentru tot timpul acordat acestui workshop.',
+    images: [bridge1, bridge2, bridge3],
+    //image to show in events page
+    cover: bridge1,
+    location: 'Eveniment online',
+    location_en : 'Online event',
+    date: '10 - 12 Sept 2021',
+    date_en: '10 - 12 Sept 2021',
+    key: 'the_bridge_between_high_and_low_programming',
+  },
   {
     title_en: 'Lahovari - 130 years of tradition and excellence ',
     title:

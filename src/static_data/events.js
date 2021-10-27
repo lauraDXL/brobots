@@ -113,9 +113,9 @@ import lahovari9 from '../assets/events/lahovari9.jpg';
 import vfr1 from '../assets/events/vfr1.png';
 import vfr2 from '../assets/events/vfr2.jpg';
 import vfr3 from '../assets/events/vfr3.jpg';
-import bridge1 from '../assets/events/brodge1.jpg';
+import bridge1 from '../assets/events/bridge1.jpg';
 import bridge2 from '../assets/events/bridge2.png';
-import bridge3 from '../assets/events/bridge3.jpg';
+import bridge3 from '../assets/events/bridge3.png';
 
 export const events = [
 

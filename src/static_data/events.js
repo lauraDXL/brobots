@@ -116,23 +116,96 @@ import vfr3 from '../assets/events/vfr3.jpg';
 import bridge1 from '../assets/events/bridge1.jpg';
 import bridge2 from '../assets/events/bridge2.png';
 import bridge3 from '../assets/events/bridge3.png';
-
+import recrutaricover from '../assets/events/recrutaricover.jpg';
+import recrutari1 from '../assets/events/recrutari1.jpg';
+import recrutari2 from '../assets/events/recrutari2.jpg';
+import covers from '../assets/events/stiintescuc.jpg';
+import s1 from '../assets/events/stiintescu1.jpg';
+import s2 from '../assets/events/stintescu2.jpg';
+import coversus from '../assets/events/coversus.jpg';
+import sus from '../assets/events/sus.jpg';
+import poster from '../assets/events/poster.jpg';
 export const events = [
 
+  {
+    title_en: 'Spookify your lab ',
+    title:'Spookify your lab',
+    description_en:
+      'The BroBots Team invites you to the “SPOOKIFY YOUR LAB” lightning challenge 🕸️Have you ever wanted to bring the spirit of Halloween to your robotics lab?\n🕸️Join the BroBots team in the "SPOOKIFY YOUR LAB" activity, turning your robotics lab into a house of horror!\n 🕸️You can decorate your lab in any way you want, from pumpkins, garlands and spider webs to witches, skeletons and anything else that causes fear. The scariest Halloween costumes are also recommended, so don\'t be afraid to take pictures with yourselves in your horror lab   \n  🕸️If you want to participate in this activity, all you have to do is turn your lab into a Halloween theme, then post a story on Instagram with a picture of it, adding tags to our team @brobotsteam and #spookifylab. All labs will be added in a collage.  \n ⚡All these conditions must be met in a lightning time, more precisely until October 31, at 18:00. \n🕸️Thank you if you decide to join this challenge and if you have any questions feel free to ask! We can\'t wait to see what your labs will look like in the end! Happy haunting! 🎃',
+    description:
+      'BroBots Team vă invită la provocarea fulger ” SPOOKIFY YOUR LAB”\n      🕸️V-ați dorit vreodată să aduceți spiritul de Halloween în laboratorul vostru de robotică?\n🕸️Alaturați-vă echipei BroBots în activitatea "SPOOKIFY YOUR LAB", transformându-vă laboratorul de robotică într-o casă a groazei!\n   🕸️Puteți să vă decorați laboratorul în orice mod doriți, de la dovleci, ghirlande și pânze de păianjeni până la vrăjitoare, scheleți și orice altceva provoacă spaimă. Sunt recomandate și costumele de Halloween cât mai înfricoșătoare, așa că nu vă sfiiți sa vă fotografiți alături de laboratorul vostru de groază!\n 🕸️Dacă doriți să participați la această activitate, tot ce trebuie să faceți este să va transformați laboratorul în tema de Halloween, apoi să postați un story pe Instagram cu o poză a acestuia, adăugând tag echipei noastre @brobotsteam și #spookifylab. Toate laboratoarele vor fi adăugate într-un colaj.\n ⚡Toate aceste condiții trebuie îndeplinite într-un timp fulger, mai exact până la data de 31 octombrie, ora 18:00.\n 🕸️Vă mulțumim dacă decideți să vă alăturați în această provocare, iar dacă aveți orice întrebare nu ezitați să întrebați! Abia așteptăm să vedem cum o să arate laboratoarele voastre la final! Bântuială fericită! 🎃',
+    images: [poster],
+    //image to show in events page
+    cover: poster,
+    location: 'Eveniment Online',
+    location_en: 'Online Event',
+    date: '31 Oct 2021',
+    date_en: '31 Oct 2021',
+    key: 'spookify_lab',
+  },
+
+
+  {
+    title_en: 'The BroBots Team supports the establishment of the Science Fund in Vâlcea ',
+    title:'BroBots Team susține înființarea Fondului Științescu la Vâlcea',
+    description_en:
+      'The BroBots Team supports the establishment of the Science Fund in Vâlcea\n The Științescu Fund offers funding, resources and support to any mentors (be they teachers, pupils, students, professionals from all fields) who want to help children and teens learn that side of scientific disciplines through experiments, practical activities and play.\n  We want the number of young people who have access to events and activities involving STEM / STEAM education to increase and we believe that the Science Fund is the best way to make this a reality.',
+    description:
+      'BroBots Team susține înființarea Fondului Științescu la Vâlcea\n  Fondul Științescu oferă finanțare, resurse și sprijin oricăror mentori (fie ei profesori, elevi, studenți, profesioniști din toate domeniile) care își doresc să ajute copiii și tinerii să învețe acea latura a disciplinelor științifice prin experiment, activități practice și joc.\n Ne dorim ca numărul de tineri care au acces la evenimente și activități implicând educația STEM/STEAM să crească și suntem de părere că Fondul Științescu este cea mai bună modalitate prin care acest lucru poate deveni realitate.',
+    images: [coversus, sus],
+    //image to show in events page
+    cover: sus,
+    key: 'brobots_sustine_fondul_stiintescu',
+  },
+
+  {
+    title_en: 'The Științescu Fund ',
+    title:'Fondul Științescu',
+    description_en:
+      'The Științescu Fund \n On September 23, I participated in the "Antim Ivireanul" County Library, Rm. Vâlcea, at the launch event of the Ștințescu Fund. We were happy to be with our younger or older colleagues, who were as passionate about science as we were, and we were amazed by their little creations. We presented the robot we created for greening, we talked about our team and about the contest we participate in, First Tech Challenge. We are glad that Ștințescu has arrived in Vâlcea. It is very important that as many children as possible have access to STEM projects. Thank you Gabriela Solomon for the invitation! Thank you @oanamesea and @fundatiacomunitaravalcea for all the support!',
+    description:
+      'Fondul Științescu\n  Pe data de 23 septembrie am participat la Biblioteca Județeană "Antim Ivireanul", Rm. Vâlcea la evenimentul de lansare a Fondului Ștințescu. Ne-am bucurat să fim alături de colegii noștri mai mici sau mai mari, pasionați ca și noi de domeniul științelor și am fost uimiți de micile lor creații. Am prezentat robotul creat de noi pentru ecologizare, am vorbit despre echipa noastră și despre concursul la care participăm, First Tech Challenge. Ne bucurăm că Ștințescu ajunge la Vâlcea. Este foarte important ca un număr cât mai mare de copii să aibă acces la proiecte din domeniul STEM. Mulțumim Gabriela Solomon pentru invitație! Mulțumim @oanamesea și @fundatiacomunitaravalcea pentru tot sprijinul acordat!',
+    images: [covers, s1, s2],
+    //image to show in events page
+    cover: covers,
+    location: 'Biblioteca Județeană "Antim Ivireanu", Ramnicu Valcea',
+    location_en: 'County Library "Antim Ivireanu"',
+    date: '23 Sept 2021',
+    date_en: '23 Sept 2021',
+    key: 'fondul_stiintescu',
+  },
+
+  {
+    title_en: 'BroBots 2021 recruitments ',
+    title:'Recrutările BroBots 2021',
+    description_en:
+      'BroBots 2021 recruitments\nEver since August 2, when the first BroBots preselections were held, we were surprised by the number of young people eager to join us in the First Tech Challange project.\n We presented our project to the new arrivals in our high school, to the ninth grade students, to whom we also showed our robot, created for a greening action, in addition to the details about our team and competition.\n   We welcomed them in our laboratory with open arms and introduced them to the basics of robotics as well as the values ​​of FIRST.\n We are impressed by these smart and exceptional young people who have joined us as volunteers and we can\'t wait to see how they will manage with us during the contest.',
+    description:
+      'Recrutările BroBots 2021 Încă din 2 august, de când s-au ținut primele preselecții BroBots, am fost surprinși de numărul de tineri dornici să ni se alăture în proiectul First Tech Challange. Am prezentat proiectul nostru și noilor sosiți în liceul nostru, elevilor de clasa a IX-a, cărora le-am arătat și robotul nostru, creat pentru o acțiune de ecologizare, pe lângă detaliile despre echipa noastră și competiție I-am întâmpinat în laboratorul nostru cu brațele deschise și le-am prezentat noțiunile de bază ale roboticii precum și valorile FIRST. Suntem impresionați de acești tineri inteligenți și exceptionali care ni s-au alăturat ca voluntari și abia așteptăm să vedem cum se vor descurca alături de noi pe parcursul concursului.',
+    images: [recrutaricover, recrutari1, recrutari2],
+    //image to show in events page
+    cover: recrutari1,
+    location: 'Colegiul Național "Alexandru Lahovari"',
+    location_en : '"Alexandru Lahovari" National College',
+    date: '2 Aug 2021',
+    date_en: '2 Aug 2021',
+    key: 'recrutari',
+  },
+  
 
   {
     title_en: 'The bridge between high and low programming ',
     title:
       'The bridge between high and low programming',
     description_en:
-      'The online programming event - C ++ - "The bridge between high and low programming" - - organized in collaboration with the BroBots Team and together with the Lahovari alumni community, was held on September 10-12 and during the event we talked about the principles of object-oriented programming , about classes, generic code in C ++ and STL library. We would like to thank our trainer, Răzvan Ispas - alumnus Lahovari (2019 promotion) (student at the Faculty of Mathematics and Informatics within the “Babeș-Bolyai” University of Cluj-Napoca) for all the time given to this workshop.',
+      'The online programming event - C ++ - "The bridge between high and low programming" - - organized in collaboration with BroBots Team and together with the Lahovari alumni community, was held on September 10-12 and during the event we talked about the principles of object-oriented programming , about classes, generic code in C ++ and STL library. We would like to thank our trainer, Răzvan Ispas - alumnus Lahovari (2019 promotion) (student at the Faculty of Mathematics and Informatics within the “Babeș-Bolyai” University of Cluj-Napoca) for all the time given to this workshop.',
     description:
-      'Evenimentul online de programare - C++ - ”The bridge between high and low programming” - - organizat în colaborare cu BroBots Team și împreună cu comunitatea de alumni Lahovari, s-a ținut pe 10-12 septembrie și în cadrul evenimentului s-a vorbit despre principiile programării orientate obiect, despre clase, cod generic în C++ și librăria STL. Îi mulțumim enorm trainerului nostru, Răzvan Ispas – alumn Lahovari (promoția 2019) (student la Facultatea de Matematică și Informatică din cadrul Universității “Babeș-Bolyai” Cluj-Napoca) pentru tot timpul acordat acestui workshop.',
+      'Evenimentul online de programare - C++ - ”The bridge between high and low programming” - - organizat în colaborare cu BroBots Team și împreună cu comunitatea de alumni Lahovari, s-a ținut pe 10-12 septembrie și în cadrul evenimentului s-a vorbit despre principiile programării orientate obiect, despre clase, cod generic în C++ și librăria STL. Îi mulțumim enorm trainerului nostru, @razvanip – alumn Lahovari (promoția 2019) (student la Facultatea de Matematică și Informatică din cadrul Universității “Babeș-Bolyai” Cluj-Napoca) pentru tot timpul acordat acestui workshop.',
     images: [bridge1, bridge2, bridge3],
     //image to show in events page
     cover: bridge1,
-    location: 'Eveniment online',
-    location_en : 'Online event',
+    location: 'Online Event',
+    location_en : 'Eveniment Online',
     date: '10 - 12 Sept 2021',
     date_en: '10 - 12 Sept 2021',
     key: 'the_bridge_between_high_and_low_programming',

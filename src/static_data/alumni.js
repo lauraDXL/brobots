@@ -4,8 +4,12 @@ import patrick from '../assets/team/Patrick.jpeg';
 import andreit from '../assets/team/AndreiT.jpeg';
 import andreim from '../assets/team/andreim.jpg';
 import silviu from '../assets/team/silviu.jpeg';
+import grig from '../assets/team/grig.png';
+import musat from '../assets/team/Darius.jpg';
 
 export const alumni = [
+
+
   {
     name: 'Andrei Toma',
     img: andreit,
@@ -68,6 +72,28 @@ export const alumni = [
       "I'm from Vali and I was part of the BroBots team of the 'Alexandru Lahovari' National College, in the 3D Design department. I am passionate about design, music and video games. I like to spend my time playing with friends and working on personal projects.",
     description:
       'Sunt Vali și am făcut parte din echipa BroBots a Colegiului Național "Alexandru Lahovari", în departamentul de Proiectare 3D. Sunt pasionat de proiectare, muzică și jocuri video. Îmi place să îmi petrec timpul jucându-mă cu prietenii și lucrând la proiecte personale.'
-  }
+  },
+
+  {
+    name: 'Grigorie Smarandache',
+    img: grig,
+    facebook: 'https://www.facebook.com/grigorietheodor.smarandache.7',
+    phone: '0770 766 546',
+    email: 'grigorie2002@yahoo.com',
+    description_en:
+      "Hello! My name is Smarandache Grigorie Theodor and I am a student at Alexandru Lahovari National College. I have been in this project for a season and I can say that it was one in which I met new people, I learned new things and I was able to be part of a sensational team. I'm passionate about computer science, math and video games, but this year I'm going to help the 3D design team achieve their goal.",
+    description:
+      'Salut! Mă numesc Smarandache Grigorie Theodor și sunt elev la Colegiul Național Alexandru Lahovari. Sunt în acest proiect de un sezon și pot să spun că a fost unul în care am cunoscut oameni noi, am învățat lucruri noi și am putut să fac parte dintr-o echipă senzațională. Sunt pasionat de informatică, matematică și de jocurile video, dar anul acesta o să ajut echipa de proiectare 3D să își atingă scopul.'
+  },
+
+  {
+    name: 'Darius Mușat',
+    img: musat,
+    instagram: 'https://www.instagram.com/dariusbeu/',
+    description_en:
+      'Hello! My name is Darius and I am part of the Brobots robotics team of the Alexandru Lahovari National College from Râmnicu Vâlcea, working in the Assembly department. I am a determined person with a clearly established goal, passionate about robotics and nature. I like to work with my friends while having fun, and my free time I like to paint, play sports and read.',
+    description:
+      'Salut! Mă numesc Darius și fac parte din echipa de robotică Brobots a Colegiului Național Alexandru Lahovari din Râmnicu Vâlcea, activând în cadrul departamentului de Asamblare. Sunt o persoană determinată cu un scop clar stabilit, pasionată de robotică și natură. Îmi place să lucrez alături de prietenii mei în timp ce ne distrăm, iar timpul liber îmi place să pictez, să fac sport și să citesc.'
+  },
   
 ];

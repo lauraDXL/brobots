@@ -1,18 +1,51 @@
-import grig from '../assets/team/grig.png';
-import andy from '../assets/team/Andy.jpg';
+import andy from '../assets/team/Andi.png';
 import laura from '../assets/team/laura.png';
-import chebarus from '../assets/team/Chebarus.jpg';
-import sima from '../assets/team/sima.jpg';
-import manolescu from '../assets/team/manolescu.jpg';
-import chirita from '../assets/team/Chirita.jpg';
-import musat from '../assets/team/Darius.jpg';
+import chebarus from '../assets/team/Cheba.png';
+import sima from '../assets/team/Ionut.png';
 import vladut from '../assets/team/Vladut.jpg';
-import cristi from '../assets/team/Cristi.jpg';
-import stefi from '../assets/team/Stefania.jpg';
-import bogdan from '../assets/team/Bogdan.jpg';
-import razvan from '../assets/team/Razvan.jpg';
-
+import stefi from '../assets/team/Stefi.png';
+import bogdan from '../assets/team/bogdan.png';
+import razvan from '../assets/team/Razvan.png';
+import ditoiu from '../assets/team/Ditoiu.png';
+import calin from '../assets/team/Calin.png';
+import luca from '../assets/team/Luca.png';
+import lara from '../assets/team/Lara.png'; 
+import alexia from '../assets/team/Alexia.png'; 
+import bianca from '../assets/team/Bianca.png'; 
+import abi from '../assets/team/abi.png'; 
+import dia from '../assets/team/dia.png'; 
+import arturo from '../assets/team/arturo.png'; 
+import crina from '../assets/team/Crina.png'; 
+import octa from '../assets/team/Octavian.png';
+import maria from '../assets/team/Maria.png';
+import mihai from '../assets/team/Mihai.png';
+import alexandros from '../assets/team/Alexandros.png';
+import mitran from '../assets/team/Mitran.png';
+import costin from '../assets/team/Costin.png';
+import fabio from '../assets/team/Fabio.png';
 export const team = [
+
+  {
+    name: 'Bogdan Popescu',
+    img: bogdan,
+    instagram: 'https://www.instagram.com/bogdan.stefan.25/',
+    facebook: 'https://www.facebook.com/stef.pop.37',
+    description:
+      "Sunt pasionat de IT, design grafic și citit. \n Mă consider o fire ambițioasă, perseverentă și prietenoasă. \nÎmi place să ajut oamenii în orice mod posibil și încerc să fac lucruri cât mai de impact pentru comunitate.",
+    description_en:
+      'I am passionate about IT, graphic design and reading.\n I consider myself ambitious, persevering and friendly.\n I like to help people in any way I can and I try to do things that are as impactful as possible for the community.'
+  },
+
+  {
+    name: 'Ștefania Ciuciulete',
+    img: stefi,
+    facebook: 'https://www.facebook.com/stephene27/',
+    instagram: 'https://www.instagram.com/stepi_on_me/',
+    description_en:"I love psychology, graphic design and nature. In my free time, I enjoy helping people, getting involved in the community as much as possible, reading, drawing, and playing video games. I am quite persevering and motivated in what I do.",
+    description: 
+    "Ador psihologia, graphic design-ul și natura.  În timpul meu liber, îmi place să ajut lumea, să mă implic în comunitate cât se poate de mult, să citesc, să desenez și să mă joc jocuri video. Sunt destul de perseverentă și motivată în ceea ce fac."
+  },
+
   {
     name: 'Laura Simion',
     img: laura,
@@ -21,21 +54,45 @@ export const team = [
     phone: '0787 546 995',
     email: 'laurasimion89@gmail.com',
     description_en:
-      'Hi! My name is Laura and I study at Alexandru Lahovari National College. This season I will be part of the 3D design department of the BroBots team. I am passionate about computer science and astronomy and in my free time I like to discover things about the fields that interest me, to go out with my friends or to play.',
+      'I am passionate about traveling, music and I like meeting new people. I like to get involved in as many volunteering projects as possible. I am a sociable person and I like to spend my time learning as many new things as possible from various fields',
     description:
-      'Bună! Mă numesc Laura și studiez la Colegiul Național Alexandru Lahovari. În acest sezon voi face parte din departamentul de proiectare al echipei BroBots. Sunt pasionată de informatică și astronomie și în timpul liber îmi place să descopăr lucruri despre domeniile care mă interesează, să ies cu prietenii sau să mă joc.'
+      'Sunt pasioanată de călătorit, muzică și îmi place să cunosc persoane noi. Îmi place să mă implic în cât mai multe proiecte de voluntariat. Sunt o persoană sociabilă și îmi place să îmi petrec timpul aflând cât mai multe lucruri noi din diverse domenii'
   },
+ 
+
   {
-    name: 'Grigorie Smarandache',
-    img: grig,
-    facebook: 'https://www.facebook.com/grigorietheodor.smarandache.7',
-    phone: '0770 766 546',
-    email: 'grigorie2002@yahoo.com',
+    name: 'Răzvan Mutuleasa',
+    img: razvan,
+    instagram: 'https://www.instagram.com/razvan.mihai.24/',
     description_en:
-      "Hello! My name is Smarandache Grigorie Theodor and I am a student at Alexandru Lahovari National College. I have been in this project for a season and I can say that it was one in which I met new people, I learned new things and I was able to be part of a sensational team. I'm passionate about computer science, math and video games, but this year I'm going to help the 3D design team achieve their goal.",
+      "I am cheerful and I like to meet as many people as possible. I am passionate about video science, drawing, philosophy and computer games, but from time to time I like to practice playing the guitar. I also like to give speeches and presentations.",
     description:
-      'Salut! Mă numesc Smarandache Grigorie Theodor și sunt elev la Colegiul Național Alexandru Lahovari. Sunt în acest proiect de un sezon și pot să spun că a fost unul în care am cunoscut oameni noi, am învățat lucruri noi și am putut să fac parte dintr-o echipă senzațională. Sunt pasionat de informatică, matematică și de jocurile video, dar anul acesta o să ajut echipa de proiectare 3D să își atingă scopul.'
+      'Sunt o fire veselă și îmi place să cunosc cât mai mulți oameni. Sunt pasionat de informatică, desenat, filosofie și jocuri pe calculator dar din când în când îmi place să exersez cântatul la chitară. De asemenea, îmi place să țin discursuri și prezentări',
   },
+  
+ 
+ 
+  {
+    name: 'Vlăduț Ionel',
+    img: vladut,
+    instagram: 'https://www.instagram.com/27xvlad/',
+    description_en:
+      'I am thoughtful and rational. In my free time I like to go to the gym, go outside and play on the computer. My main passion, which I want to focus on, is programming.',
+    description:
+      'Sunt o fire gânditoare și rațională. În timpul liber îmi place să merg la sală, să ies pe afară și să mă joc pe calculator. Pasiunea mea principală, de viitor și pe care vreau să mă axez în continuare, este programarea.'
+  },
+
+  {
+    name: 'Ionuț Sima',
+    img: sima,
+    instagram: 'https://www.instagram.com/ionutsima1/',
+    facebook: 'https://www.facebook.com/ionut.sima.96742',
+    description_en:
+      "I am passionate about 3D design and assembly. I like nature, to be the soul of the party and to help people. I consider myself a calm, funny person and someone you can count on",
+    description:
+      'Sunt pasionat de proiectare 3D și asamblare.  Îmi place natura, să fiu sufletul petrecerii și să ajut lumea.  Mă consider o fire calmă, amuzantă și pe care te poți baza'
+  },
+  
   {
     name: 'Andrei Dobrete',
     img: andy,
@@ -45,102 +102,195 @@ export const team = [
     phone: '0770 942 669',
     email: 'andy3153@protomail.com',
     description_en:
-      "Hello! My name is Andrei and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots. I joined the programming and assembly departments because since I was a child I have liked computers and everything related to them in general and to observe how the different mechanisms work in the things that surround us in our daily lives. I am passionate about technology and music.",
+      "I am passionate about IT, 3D design and mechanics. I consider myself calm and friendly. I like learning new things, playing video games and listening to music.",
     description:
-      'Salut! Mă numesc Andrei și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari", BroBots. M-am alăturat departamentelor de programare și de asamblare deoarece de mic mi-au placut calculatoarele și totul legat de ele în general și să observ cum funcționează diferitele mecanisme din lucrurile care ne înconjoară în viața de zi cu zi. Mă pasionează tehnologia și muzica.'
+      'Sunt pasionat de IT, proiectare 3D și mecanică. Mă consider o fire calmă și prietenoasă. Îmi place să învăț lucruri noi, să mă joc jocuri video și să ascult muzică.'
   },
-  {
-    name: 'Robert Chiriță',
-    img: chirita,
-    facebook: 'https://www.facebook.com/profile.php?id=100008343311396',
-    instagram: 'https://www.instagram.com/kirita_robert/?hl=ro',
-    description_en:
-      "Hey! My name is Chirița Robert, I am 16 years old and I am a student of the 'Alexandru Lahovari' National College. I became a member of the BroBots team in order to help the programming department. In my free time I like to play video games, go out with friends or take various courses related to the hardware part of a computer to the software part.",
-    description:
-      'Hey! Ma numesc Chirița Robert, am 16 ani și sunt elev al Colegiului Național "Alexandru Lahovari". Am devenit membru al echipei BroBots cu scopul de a ajuta departamentul de programare. În timpul liber îmi place să mă joc jocuri video, să ies cu prietenii sau să urmaresc diverse cursuri ce țin de la partea de hardware a unui calculator pana la partea de software.'
-  },
-  {
-    name: 'Darius Mușat',
-    img: musat,
-    instagram: 'https://www.instagram.com/dariusbeu/',
-    description_en:
-      'Hello! My name is Darius and I am part of the Brobots robotics team of the Alexandru Lahovari National College from Râmnicu Vâlcea, working in the Assembly department. I am a determined person with a clearly established goal, passionate about robotics and nature. I like to work with my friends while having fun, and my free time I like to paint, play sports and read.',
-    description:
-      'Salut! Mă numesc Darius și fac parte din echipa de robotică Brobots a Colegiului Național Alexandru Lahovari din Râmnicu Vâlcea, activând în cadrul departamentului de Asamblare. Sunt o persoană determinată cu un scop clar stabilit, pasionată de robotică și natură. Îmi place să lucrez alături de prietenii mei în timp ce ne distrăm, iar timpul liber îmi place să pictez, să fac sport și să citesc.'
-  },
-  {
-    name: 'Vlăduț Ionel',
-    img: vladut,
-    instagram: 'https://www.instagram.com/27xvlad/',
-    description_en:
-      'Hello! My name is Vlăduț, I am 16 years old and I am part of the robotics team of the "Alexandru Lahovari" National College. I joined the programming department this year to help the team and learn new things! In my free time I like to play, to program and I like take walks outside. I have a passion for computer science and I want to know as much as possible about this field.',
-    description:
-      'Hello! Mă numesc Vlăduț, am 16 ani și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari".  M-am alăturat anul acesta departamentului de programare pentru a ajuta echipa și pentru a învăța lucruri noi!În timpul liber îmi place să mă joc, să programez și îmi plac plimbările pe afară. Am o pasiune pentru informatică și vreau să știu cât mai multe despre acest domeniu.'
-  },
-  {
-    name: 'Cristian Drosu',
-    img: cristi,
-    instagram: 'https://www.instagram.com/drosucristian/?hl=ro',
-    description_en:
-      'Hello! My name is Cristian and I am part of the robotics team of the "Alexandru Lahovari" National College, Brobots. I joined the assembly department because as a child I liked to disassemble and reassemble different things in order to understand how they are built and how they work. I have many passions including basketball, cycling and bodybuilding.',
-    description:
-      'Salut! Mă numesc Cristian și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari", Brobots. M-am alăturat departamentului de asamblare deoarece de mic îmi place să demontez și să reasamblez diferite lucruri pentru a putea înțelege cum sunt construite si modul acestora de funcționare. Am multe pasiuni printre care se numără baschetul, bicicletele și culturismul.'
-  },
-  {
-    name: 'Ștefania Ciuciulete',
-    img: stefi,
-    facebook: 'https://www.facebook.com/stephene27/',
-    instagram: 'https://www.instagram.com/stepi_on_me/',
-    description_en:
-      "Hello! My name is Ștefania Ciuciulete and I am part of the BroBots robotics team, of the Alexandru Lahovari National College from Rm. Valcea, working in the marketing and communication department. I am an ambitious and friendly person, who always sees the glass half full. I like to get involved in whatever interests me. I'm quite competitive because I've spent and still spend much of my life playing video games. Besides that, I really enjoy reading and swimming.",
-    description:
-      'Salut! Mă numesc Ștefania Ciuciulete și fac parte din echipa de robotică BroBots, a Colegiului Național Alexandru Lahovari din Rm. Valcea, activând in cadrul departamentul de marketing și comunicare. Sunt o fire ambițioasă și prietenoasă, care își dorește mereu să vadă partea plină a paharului. Îmi place să mă implic în orice mă intereseaza. Sunt destul de competitivă deoarece am petrecut și încă petrec o mare parte din viața mea în fața jocurilor video. Pe langă asta îmi place foarte mult să citesc și să înot.'
-  },
-  {
-    name: 'Bogdan Popescu',
-    img: bogdan,
-    instagram: 'https://www.instagram.com/bogdan.stefan.25/',
-    facebook: 'https://www.facebook.com/stef.pop.37',
-    description_en:
-      "Hello! My name is Bogdan and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots, in the programming department. I have a passion for computer science and I am competitive and ambitious. In my free time I like to program, edit and draw",
-    description:
-      'Salut! Mă numesc Bogdan și fac parte din echipa de robotică a Colegiului National "Alexandru Lahovari", BroBots, în departamentul de programare. Am o pasiune pentru informatică și sunt o fire competitivă și ambițioasă. În timpul liber îmi place să programez, editez și să desenez.'
-  },
-  {
-    name: 'Răzvan Mutuleasa',
-    img: razvan,
-    instagram: 'https://www.instagram.com/razvan.mihai.24/',
-    description_en:
-      "Hello! My name is Razvan and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots, programming and marketing departments. I'm a cheerful person and I make a lot of bad jokes. I have many passions including sports, computer science, music and computer games.",
-    description:
-      'Salut! Ma numesc Razvan si fac parte din echipa de robotica a Colegiului National "Alexandru Lahovari", BroBots, departamentele de programare si marketing. Sunt o fire vesela si fac multe glume proaste. Am multe pasiuni printre care se numara sportul, informatica, muzica si jocurile pe calculator.'
-  },
+
+
   {
     name: 'Andrei Chebăruș',
     img: chebarus,
     facebook: 'https://www.facebook.com/nicolae.chebarus/ ',
     instagram: 'https://www.instagram.com/andrei_nc_/?hl=ro',
     description_en:
-      "Hello! My name is Andrei Chebăruș and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots, being still a volunteer, helping the marketing and design departments. I am kind, adaptable and curious. Besides computer science and drawing, another passion is photography. In my free time I like to read and discover new things and places.",
+      "I like to find out as many new things as possible, meet many people and create unforgettable memories. I spend my time with many of my favorite activities, such as music, drawing, computer science and photography.",
     description:
-      'Salut! Mă numesc Andrei Chebăruș și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari", BroBots, fiind încă voluntar, ajutând departamentele de marketing și proiectare. Sunt o fire amabilă, adaptabilă și curioasă. Pe lângă informatică și desen o altă pasiune este fotografia. În timpul liber îmi place să citesc și să descopăr lucruri și locuri noi.'
+      'Îmi place să aflu cât mai multe lucruri noi, persoane și sa creez amintiri de neuitat. Îmi ocup timpul cu multe activități cele mai îndrăgite sunt muzica, desenul, informatica și fotografia.'
   },
+
   {
-    name: 'Ionuț Sima',
-    img: sima,
-    instagram: 'https://www.instagram.com/ionutsima1/',
-    facebook: 'https://www.facebook.com/ionut.sima.96742',
+    name: 'Dițoiu Ștefan',
+    img: ditoiu ,
+    facebook: 'https://www.facebook.com/ionsorinel.ditoiu/ ',
+    instagram: 'https://www.instagram.com/stefanditoiu/',
     description_en:
-      "Hello! My name is Ionuț and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots. This season I will a volunteer in the programming, design and assembly departments. I love to sing, make the most of life and learn new things.",
+      "I am passionate about programming, video games and reading. I like to listen to a lot of music, my favorites being rock and EDM. I consider myself a calm, friendly and ambitious person.",
     description:
-      'Salut! Mă numesc Ionuț și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari", BroBots. În acest sezon voi fi prezent ca voluntar în departamentele de programare, proiectare și asamblare. Îmi place la nebunie să cânt, să profit la maxim de viață și să învăț lucruri noi.'
+      'Sunt pasionat de programare, jocuri pe calculator și citit. Îmi place să ascult multă muzică, preferata mea fiind rock-ul si EDM-ul. Mă consider o persoană calmă, prietenoasă și ambițioasă.'
   },
+
   {
-    name: 'Vlad Manolescu',
-    img: manolescu,
+    name: 'Ariciu Călin',
+    instagram: "https://instagram.com/ariciucalin?utm_medium=copy_link",
+    img: calin ,
     description_en:
-      "Hello! My name is Vlad and I am part of the robotics team of the 'Alexandru Lahovari' National College, BroBots, and I am currently a volunteer. I'm an introvert. My passions are athletics, music and computer games.",
+      "My passions are cars, music, gaming and everything related to technology. I am interested in robotics because I consider it a field of the future, which is constantly evolving.",
     description:
-      'Salut! Mă numesc Vlad și fac parte din echipa de robotică a Colegiului Național "Alexandru Lahovari", BroBots, și sunt momentan voluntar. Sunt o persoană introvertită de obicei. Pasiunile mele sunt atletismul, muzica și jocurile pe calculator.'
-  }
+      'Pasiunile mele sunt mașinile, muzica, gaming-ul și tot ce ține de tehnologie. Sunt interesat de robotică deoarece consider că este un domeniu de viitor, care este în continuă evoluție.'
+  },
+ 
+  {
+    name: 'Tamaș Albert',
+    img: abi,
+    instagram: 'https://www.instagram.com/lo_wang._/',
+    description_en:
+      "Most of my passions would be music and video games, but at the same time I am very serious about my future and important work in general. I also like to travel and explore new things",
+    description:
+      'În mare parte pasiunile mele ar fi muzica și jocurile video, dar în același timp sunt foarte serios cu privire la viitorul meu și la munca importantă în general. De asemenea, îmi place să călătoresc și să explorez lucruri noi'
+  },
+ 
+
+  {
+    name: 'Mihăilescu Lara',
+    img: lara ,
+    description_en:
+      'I am very ambitious and perfectionist, sometimes even stubborn. My favorite song is "Aristocats". In my free time I love to dance and play the piano.',
+    description:
+      'Sunt o fire foarte ambițioasă si perfecționistă, câteodată chiar încăpățânată. Melodia mea preferată este "Aristocats". În timpul liber ador să dansez și să cânt la pian.',
+  },
+
+  {
+    name: 'Sminticiuc Alexia',
+    img: alexia ,
+    facebook: 'https://web.facebook.com/alexia.andreea.106 ',
+    instagram: 'https://www.instagram.com/alexia.xq/',
+    description_en:
+      "I am passionate about crypto, IT and reading.  I am defined by my ambition and perseverance. I like programming and design.",
+    description:
+      'Sunt pasionată de crypto, domeniul IT și cititul. Mă definesc ambiția si perseverența.  Îmi plac programarea și proiectarea.'
+  },
+
+  {
+    name: 'Andreescu Bianca',
+    img: bianca ,
+    facebook: 'https://web.facebook.com/profile.php?id=100009218352532 ',
+    instagram: 'https://www.instagram.com/byanka_nykoleta/',
+    description_en:
+      "I really like: music, math, photography and reading. I can describe myself as a cheerful, ambitious person, eager to learn new and creative things.",
+    description:
+      'Îmi plac foarte mult: muzica, matematica, fotografia și cititul.  Mă pot descrie ca fiind o fire veselă, ambițioasă, dornică de a învăța lucruri noi și creativă.'
+  },
+
+  {
+    name: 'Vlăduțu Luca',
+    img: luca ,
+    description_en:
+      "I like cars and motorsport of all kinds. I also like gaming and reading from time to time",
+    description:
+      'Îmi plac mașinile și motorsportul de toate felurile. De asemenea, îmi plac gaming-ul și cititul din când în când',
+  },
+
+  {
+    name: 'Diaconeasa Andrei',
+    img: dia ,
+    facebook: 'https://m.facebook.com/andrei.diaconeasa.925?ref=bookmarks',
+    instagram: 'https://www.instagram.com/andrei_ids/',
+    description_en:"I am a very curious and ambitious personI am passionate about video games, sports and musicI always like to learn new things."   ,
+     description:"Sunt o persoana foarte curioasă și ambitioasă.  Sunt pasionat de jocuri video, sport și muzică. Îmi place să învăț mereu lucruri noi. "
+  },
+
+  {
+    name: 'Ivența Caralicea Arturo',
+    img: arturo,
+    instagram: 'https://www.instagram.com/arturo.exe/',
+    description_en:
+      "I am creative, realist and sociable. I'm willing to learn new things. I am passionate about science, physics and computers.",
+    description:
+      'Sunt o fire creativă, realistă și sociabilă. Sunt dispus să învăț lucruri noi. Sunt pasionat de știință, fizică și calculatoare.'
+  },
+
+  {
+    name: 'Ghebu Crina',
+    img: crina,
+     description_en:
+      "I am ambitious and a little stubborn. In my free time I like to learn various choreographies and make sketches and drawings. I like to fight for what I want.",
+    description:
+      'Sunt o fire ambitioasă și puțin încăpățânată. În timpul liber îmi place să învăț diverse coregrafii și să realizez schițe și desene. Îmi place să lupt pentru ceea ce vreau.'
+  },
+
+  
+  {
+    name: 'Ciobanu Octavian',
+    img: octa,
+     description_en:
+      "I like helping people. I like the assembly, design and programming parts. I believe in a future where robots will help us.",
+    description:
+      'Îmi place să ajut oamenii. Îmi place partea de asamblare, proiectare și programare. Cred într-un viitor în care roboții ne vor ajuta.'
+  },
+
+  {
+    name: 'Tudor Maria',
+    instagram: "https://instagram.com/_.marya_28?r=nametag",
+    img: maria,
+     description_en:
+      "I'm creative.  I like to get involved in projects and meet new people.  I believe in people's potential.  I spend my free time with friends.",
+    description:
+      "Sunt o fire creativă.  Îmi place să mă implic în proiecte și să cunosc oameni noi. Cred în potențialul oamenilor.     Îmi petrec timpul liber cu prietenii."
+  },
+
+  
+  {
+    name: 'Bulacu Mihai',
+    img: mihai,
+     description_en:
+      "I'm a nice boy, funny and smart. I'm passionate about robotics. I'm ambitious.",
+    description:
+      "Sunt un baiat de treaba, amuzant și isteț. Sunt pasionat de robotică. Sunt o fire ambițioasă."
+  },
+
+  {
+    name: 'Bulacu Mihai',
+    img: mihai,
+     description_en:
+      "I'm a nice boy, funny and smart. I'm passionate about robotics. I'm ambitious.",
+    description:
+      "Sunt un baiat de treaba, amuzant și isteț. Sunt pasionat de robotică. Sunt o fire ambițioasă."
+  },
+
+  {
+    name: 'Mariescu Alexandros',
+    img: alexandros,
+     description_en:
+      "I'm a good boy, hardworking and honest. I'm passionate about robotics. I'm ambitious.'",
+    description:' Sunt un baiat de treaba, harnic și onest. Sunt pasionat de robotica.  Sunt o fire ambițioasă.'
+  },
+
+  {
+    name: 'Mitran Alexandru',
+    img: mitran,
+     description:
+      "Îmi plac jocurile video, să ascult muzica și să  joc basket.  Am vrut să mă alătur echipei de robotică pentru a învăța lucruri noi și pentru a cunoaște oameni noi.",
+    description_en:' I like video games, listening to music and playing basketball. I wanted to join the robotics team to learn new things and meet new people.'
+  },
+
+  {
+    name: 'Bădiță Costin',
+    img: costin,
+     description:
+      "Îmi place să învăț lucruri noi.   Sunt atent la detalii.  Respect părerile coechipierilor. Îmi place să lucrez fără oprire alături de ceilalți.",
+    description_en:' I like to learn new things.  I pay attention to details. I respect the opinions of my teammates. I like to work non-stop with others.'
+  },
+
+  {
+    name: 'Bădălan Fabio',
+    img: fabio,
+     description:
+      "Sunt o persoana foarte sociabilă și responsabila. Îmi place sa îmi pun ambitia și devotamentul in tot ceea ce fac și sa încerc lucruri cât mai noi și provocatoare.",
+    description_en:' I am a very sociable and responsible person. I like to put my ambition and devotion into everything I do and try new and challenging things.'
+  },
+
+
+
+
 ];

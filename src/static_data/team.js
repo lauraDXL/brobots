@@ -164,8 +164,7 @@ export const team = [
   {
     name: 'Sminticiuc Alexia',
     img: alexia ,
-    facebook: 'https://web.facebook.com/alexia.andreea.106 ',
-    instagram: 'https://www.instagram.com/alexia.xq/',
+    
     description_en:
       "I am passionate about crypto, IT and reading.  I am defined by my ambition and perseverance. I like programming and design.",
     description:
@@ -241,14 +240,7 @@ export const team = [
   },
 
   
-  {
-    name: 'Bulacu Mihai',
-    img: mihai,
-     description_en:
-      "I'm a nice boy, funny and smart. I'm passionate about robotics. I'm ambitious.",
-    description:
-      "Sunt un baiat de treaba, amuzant și isteț. Sunt pasionat de robotică. Sunt o fire ambițioasă."
-  },
+  
 
   {
     name: 'Bulacu Mihai',

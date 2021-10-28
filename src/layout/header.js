@@ -136,8 +136,16 @@ const Header = props => {
           <Link
             activeClassName={styles.active}
             className={styles.normal}
+            to='/results'
+          >
+            <FormattedMessage id='results' />
+          </Link>
+          <Link
+            activeClassName={styles.active}
+            className={styles.normal}
             to='/contact'
           >
+            
             <FormattedMessage id='contact' />
           </Link>
           <Translation />

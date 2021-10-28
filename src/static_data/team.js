@@ -154,6 +154,7 @@ export const team = [
   {
     name: 'Mihăilescu Lara',
     img: lara ,
+    instagram: "https://www.instagram.com/steff_tifi/",
     description_en:
       'I am very ambitious and perfectionist, sometimes even stubborn. My favorite song is "Aristocats". In my free time I love to dance and play the piano.',
     description:
@@ -277,6 +278,7 @@ export const team = [
   {
     name: 'Bădiță Costin',
     img: costin,
+    instagram:'https://www.instagram.com/costinbadita/',
      description:
       "Îmi place să învăț lucruri noi.   Sunt atent la detalii.  Respect părerile coechipierilor. Îmi place să lucrez fără oprire alături de ceilalți.",
     description_en:' I like to learn new things.  I pay attention to details. I respect the opinions of my teammates. I like to work non-stop with others.'

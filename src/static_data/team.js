@@ -3,7 +3,7 @@ import laura from '../assets/team/laura.png';
 import chebarus from '../assets/team/Cheba.png';
 import sima from '../assets/team/Ionut.png';
 import vladut from '../assets/team/Vladut.jpg';
-import stefi from '../assets/team/Stefi.png';
+import stefi from '../assets/team/Stefania.jpg';
 import bogdan from '../assets/team/bogdan.png';
 import razvan from '../assets/team/Razvan.png';
 import ditoiu from '../assets/team/Ditoiu.png';

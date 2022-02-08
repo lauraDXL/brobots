@@ -91,9 +91,9 @@ export const alumni = [
     img: musat,
     instagram: 'https://www.instagram.com/dariusbeu/',
     description_en:
-      'Hello! My name is Darius and I am part of the Brobots robotics team of the Alexandru Lahovari National College from Râmnicu Vâlcea, working in the Assembly department. I am a determined person with a clearly established goal, passionate about robotics and nature. I like to work with my friends while having fun, and my free time I like to paint, play sports and read.',
+      '.',
     description:
-      'Salut! Mă numesc Darius și fac parte din echipa de robotică Brobots a Colegiului Național Alexandru Lahovari din Râmnicu Vâlcea, activând în cadrul departamentului de Asamblare. Sunt o persoană determinată cu un scop clar stabilit, pasionată de robotică și natură. Îmi place să lucrez alături de prietenii mei în timp ce ne distrăm, iar timpul liber îmi place să pictez, să fac sport și să citesc.'
+      'Salut, eu sunt Darius actual student al Facultății de Pompieri - specializarea instalații de construcții  și fost elev al Colegiului Național Alexandru Lahovari - specializarea matematica-informatica intensiv. În perioada liceului mi-am descoperit o pasiune ce m-a ajutat sa îmi descopăr viitoarea mea meserie, robotica, întrucât am făcut parte din echipa de robotică Brobots. Aici am învățat și m-am dezvoltat considerabil, am scăpat de emoțiile de a vorbi în public și am învățat sa comunic mult mai eficient, să lucrez într-o echipa, să fiu disciplinat și să-i ajut pe cei din jurul meu, aceste puternice ancore formate în sufletul meu m-au determinat sa îmi încep cariera de pompier. Eu consider că este vital să dețin aceste aptitudini în viitoarea mea meserie și cred cu tărie că roboții vor avea un impact major în această sferă a salvării de suflete.'
   },
   
 ];

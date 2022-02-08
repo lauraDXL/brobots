@@ -24,7 +24,11 @@ import demo5_1 from '../assets/events/demo5_1.png';
 import demo5_2 from '../assets/events/demo5_2.png';
 import demo5_3 from '../assets/events/demo5_3.png';
 
+
 export const events = [
+
+ 
+
   {
     title: 'Demo RoboticsFest - Titans',
     description_en:
@@ -49,7 +53,9 @@ export const events = [
     //image to show in events page
     cover: demo2,
     location: 'Sala Transilvania, Sibiu',
+    location_en: 'Sala Transilvania, Sibiu',
     date: '24 Ian 2020',
+    date_en: '24 Jan 2020',
     key: 'demo_sibiu'
   },
 

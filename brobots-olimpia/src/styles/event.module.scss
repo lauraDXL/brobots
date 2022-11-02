@@ -1,0 +1,237 @@
+@import './variables.scss';
+@import './mixins.scss';
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+  @include layout(row, center, flex-start);
+  flex-flow: row wrap;
+  padding: 1% 0 2% 1.5%;
+  font-family: $primary_font;
+
+  @media (max-width: $tablet) {
+    @include layout(row, center, center);
+  }
+}
+
+.card {
+  width: 45%;
+  position: relative;
+
+  @media (max-width: $desktop) {
+    width: 48%;
+  }
+
+  @media (max-width: $small_laptop) {
+    width: 70%;
+  }
+
+  @media (max-width: $tablet) {
+    width: 90%;
+  }
+
+  @media (max-width: $phone) {
+    width: 90%;
+  }
+
+  @include layout(row, center, flex-start);
+
+  margin: 1% 1% 0 0;
+  padding: 0.5% 1% 0 1%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $alb;
+  border-radius: 4px;
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  .info {
+    @include layout(column, flex-start, flex-start);
+    height: 260px;
+    width: calc(100% - 300px - 40px);
+    margin: 10px;
+    padding-bottom: 20px;
+
+    p {
+      text-align: left;
+      font-size: 0.8em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 5px 0;
+
+      @media (max-width: $tablet) {
+        font-size: 0.6em;
+      }
+    }
+
+    h4,
+    a {
+      margin: 5px 0 0 0;
+      text-align: left;
+      width: 100%;
+      text-decoration: none;
+      color: $alb;
+
+      @media (max-width: $tablet) {
+        font-size: 0.8em;
+      }
+    }
+
+    .location {
+      font-size: 0.8em;
+      margin: 5px 0 5px 0;
+      opacity: 0.8;
+
+      @media (max-width: $tablet) {
+        font-size: 0.6em;
+      }
+    }
+
+    @media (max-width: $phone) {
+      width: calc(100% - 100px - 2%);
+      height: 150px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.background {
+  height: 260px;
+  width: 300px;
+  margin: 0 3%;
+
+  @include sweep-to-bottom();
+  border-radius: 4px;
+  position: relative;
+
+  @media (max-width: $phone) {
+    height: 150px;
+    width: 100px;
+  }
+
+  img {
+    height: 240px;
+    width: 300px;
+
+    object-fit: cover;
+    border-radius: 4px;
+
+    z-index: 1;
+
+    @media (max-width: $phone) {
+      height: 150px;
+      width: 100px;
+    }
+  }
+}
+
+.date {
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+  opacity: 0.75;
+}
+
+.page {
+  @include layout(row, center, flex-start);
+  flex-flow: row wrap;
+  padding: 1% 0 2% 1.5%;
+  font-family: $primary_font;
+  width: 90%;
+
+  @media (max-width: $tablet) {
+    @include layout(row, center, center);
+    width: 100%;
+    padding: 5%;
+  }
+
+  h1 {
+    text-align: left;
+    width: 100%;
+    margin: 1% 0 0.5% 0.5%;
+    font-size: 3em;
+    font-family: $secondary_font;
+
+    @media (max-width: $tablet) {
+      font-size: 1.5em;
+    }
+  }
+  p {
+    text-align: left;
+    width: 100%;
+
+    @media (max-width: $tablet) {
+      font-size: 0.8em;
+    }
+
+    &:nth-child(2) {
+      margin: 0 1% 1% 0.5%;
+      font-size: 1em;
+    }
+
+    &:nth-child(3) {
+      margin: 3% 1% 1% 0.5%;
+      font-size: 1.2em;
+      width: 80%;
+    }
+  }
+}
+
+.primaryArea {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.carousel {
+  margin-top: 3vh;
+  position: relative;
+
+  img {
+    height: 40vw;
+    object-fit: cover;
+    transition: all 0.2s linear;
+
+    @media (max-width: $tablet) {
+      height: 50vw;
+    }
+  }
+
+  h3 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 15px 1px;
+
+    @media (max-width: $tablet) {
+      font-size: 0.5em;
+    }
+  }
+}
+
+.description {
+  margin-top: 3vh;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(253, 213, 220);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(243, 169, 169);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}

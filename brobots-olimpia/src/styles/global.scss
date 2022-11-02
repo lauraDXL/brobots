@@ -1,0 +1,44 @@
+/* global scss --- fixes padding problem Gatsby */
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  //   font-family: $main_font;
+}
+
+@font-face {
+  font-family: 'Zekton';
+  src: local('Zekton'), url('../fonts/ZektonRg-Regular.ttf') format('truetype');
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #da713025;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #da713071;
+}
+
+.body {
+  scrollbar-width: 4px;
+  scrollbar-color: transparent #da713025;
+}

@@ -1,0 +1,275 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.normal {
+  &:hover {
+    border-bottom: 2px solid $portocaliu;
+    color: $alb;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    color: $portocaliu;
+  }
+}
+.active {
+  border-bottom: 2px solid $portocaliu !important;
+  color: $portocaliu !important;
+}
+.normal {
+  &:hover {
+    border-bottom: 2px solid $portocaliu;
+    color: $alb;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    color: $portocaliu;
+  }
+}
+.active {
+  border-bottom: 2px solid $portocaliu;
+  color: $portocaliu;
+}
+
+.content {
+  background-color: $grena;
+  color: $alb;
+
+  font-family: $primary_font;
+
+  min-height: calc(100vh - #{$header_h} - #{$footer_h});
+  width: 100%;
+
+  overflow: auto;
+}
+
+.header {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
+  height: $header_h;
+  width: 100%;
+
+  background-color: $grena;
+  @include layout(row, center, flex-start);
+  button {
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+  a {
+    height: 80%;
+    @include layout(row, center, center);
+    img {
+      height: 100%;
+      padding: 1.5vh 0 0 1.5vw;
+
+      @media (max-width: $phone) {
+        height: 50%;
+        padding: 1.5vh 0 0 3.5vw;
+      }
+    }
+  }
+
+  .links {
+    width: 90%;
+    @include layout(row, center, flex-end);
+    padding-top: 2vh;
+
+    @media screen and (max-width: $tablet) {
+      margin-right: 3%;
+    }
+  }
+
+  a,
+  button {
+    color: $alb;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+
+    // @media screen and (max-width: $tablet) {
+    //   // font-size: 0.5em;
+    //   // margin: 0 5px;
+    //   display: none;
+    // }
+
+    // @media screen and (max-width: $phone) and (min-width: $small_screen) {
+    //   font-size: 0.7em;
+    //   margin: 0 5px;
+    // }
+  }
+
+  @media screen and (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.footer {
+  height: $footer_h;
+  @include layout(row, center, flex-end);
+
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
+
+  img {
+    height: 90%;
+
+    padding-right: 2vw;
+
+    @media (max-width: $phone) {
+      height: 10vw;
+    }
+  }
+  @media screen and (max-width: $tablet) {
+    @include layout(row, center, center);
+  }
+}
+
+.events {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .menu {
+    display: none;
+
+    // transition: visibility 0.5s linear;
+  }
+
+  &:hover {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .menu {
+      margin-top: 20px;
+      @include layout(column, center, flex-end);
+      position: absolute;
+      top: 5px;
+
+      z-index: 20;
+
+      background-color: rgba(255, 255, 255, 1);
+
+      border-radius: 4px;
+
+      a {
+        padding: 5px;
+        color: $gri_inchis !important;
+        width: max-content;
+
+        &:hover {
+          color: $gri_inchis;
+        }
+      }
+    }
+  }
+}
+
+.mobileMenu {
+  a {
+    color: $alb !important;
+    font-family: $secondary_font;
+    text-decoration: none !important;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid transparent;
+    transition: all 0.7s linear;
+
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: -2vh;
+      left: 30%;
+    }
+  }
+  display: none;
+  @media screen and (max-width: $tablet) {
+    display: initial;
+  }
+}
+
+.row {
+  display: none;
+  @media screen and (max-width: $tablet) {
+    display: flex;
+  }
+  @include layout(row, center, space-between);
+  background-color: $grena;
+  a {
+    width: fit-content;
+    margin: 10px 0;
+    @include layout(row, center, center);
+    img {
+      display: none;
+      height: calc(#{$header_h} * 0.5);
+      margin: 0 10vw 0 0;
+
+      @media screen and (max-width: $tablet) {
+        display: initial;
+      }
+    }
+  }
+}

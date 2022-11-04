@@ -1,0 +1,48 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.image {
+  width: 100%;
+  img {
+    width: 60%;
+  }
+
+  position: absolute;
+  top: $header_h;
+  @include layout(row, center, flex-end);
+}
+
+.text {
+  font-family: $primary_font;
+  @include layout(column, flex-start, flex-start);
+  padding: 10% 2vw;
+
+  min-height: calc(100vh - #{$footer_h} - #{$header_h});
+
+  width: 50%;
+
+  overflow: auto;
+
+  @media (max-width: $tablet) {
+    width: 60%;
+  }
+  @media (max-width: $phone) {
+    width: 70%;
+  }
+
+  h1 {
+    height: 10vh;
+    text-align: left;
+
+    @media (max-width: $phone) {
+      font-size: 1.5em;
+    }
+  }
+
+  p {
+    text-align: left;
+    @media (max-width: $phone) {
+      font-size: 0.8em;
+    }
+  }
+}

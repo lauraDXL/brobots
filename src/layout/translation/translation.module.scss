@@ -1,0 +1,49 @@
+@import './../../styles/variables.scss';
+@import './../../styles/mixins.scss';
+
+.menu {
+  @include layout(row, center, center);
+  font-size: 1rem;
+  margin-left: 2%;
+  font-weight: 100;
+
+  button {
+    outline: none;
+    border: none;
+    background: transparent;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: $primary_font;
+  }
+
+  .langOption {
+    opacity: 0.5;
+  }
+
+  .currentLangOption {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: $tablet) {
+    button {
+      // font-size: 0.8rem;
+      margin: 0 1px;
+      padding: 0 1px;
+    }
+
+    margin-left: 0;
+  }
+
+  // @media screen and (max-width: $big-phone) {
+  //   .langOption {
+  //     margin: 0 !important;
+  //     padding: 0.1rem !important;
+  //   }
+  //   .currentLangOption {
+  //     margin: 0 !important;
+  //     padding: 0.1rem !important;
+  //   }
+  // }
+}

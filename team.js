@@ -1,8 +1,10 @@
-import alexia from '../assets/team/Alexia.png'; 
+import alexiaa from '../assets/team/alexiaa.jpeg'; 
 import calin from '../assets/team/Calin.png';
 import luca from '../assets/team/Luca.png';
 import lara from '../assets/team/Lara.png';
 import razvan from '../assets/team/Razvan.png';
+import edii from '../assets/team/edii.jpeg';
+import sebiii from '../assets/team/sebiii.jpeg';
 export const team = [
 
   
